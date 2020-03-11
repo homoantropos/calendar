@@ -1,0 +1,29 @@
+table {
+  font-family: "Roboto Condensed";
+  width: 100%;
+  height: 40px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+td {
+  border: solid cornflowerblue 0.5px;
+  border-top: none;
+  text-align: center;
+}
+
+.name {
+  width: 60%;
+  text-align: left;
+}
+
+.date {
+  width: 5%;
+}
+
+.durations {
+  width: 2%;
+}
+.place {
+  width: 30%;
+  text-align: left;
+}

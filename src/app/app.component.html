@@ -1,0 +1,20 @@
+<div class="form">
+<form>
+  <input #newname><br />
+  <input #newstartday><br />
+  <input #newendday><br />
+  <input #newdurations><br />
+  <input #newplace><br />
+  <button
+    (click)="addEvent(newname, newstartday, newendday, newdurations, newplace)">
+    CREATE EVENT
+  </button>
+</form>
+</div>
+
+<div class="calendar">
+<app-event
+  *ngFor="let event of sortedshedule()"
+  [event]="event">
+</app-event>
+</div>
